@@ -20,7 +20,7 @@ def graphql_request(query, headers = {}):
 # solicitando é discussions_api (Leia mais em: https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions)
 
 headers = {
-    'Authorization': 'bearer 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',
+    'Authorization': 'bearer SEU_TOKEN_AQUI',
     'GraphQL-Features': 'discussions_api'
 }
 
