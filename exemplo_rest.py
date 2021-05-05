@@ -12,7 +12,7 @@ def rest_request(url, parameters = {}, headers = {}):
     # Coloque abaixo seu usuário e o seu token de autenticação
     # Recomendo vocês criarem um token pessoal de acesso, como mostra o tutorial:
     # https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-    session.auth = ('fronchetti', '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')
+    session.auth = ('SEU_USUARIO_AQUI', 'SEU_TOKEN_AQUI')
 
     # Realizamos a requisição à API via URL passando parâmetros e cabeçalhos quando necessário.
     response = session.get(url, params=parameters, headers=headers)
